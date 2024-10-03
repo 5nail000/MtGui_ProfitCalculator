@@ -1,7 +1,7 @@
-# MtGui Profit Calculator
+# MtGui Profit Calculator Panel
 
 ## Overview
-**MtGui Profit Calculator** is a powerful MQL5 script designed to calculate historical profit over a specified period using a user-friendly graphical interface. The interface is provided by the external library **MtGuiController.dll**.  
+**MtGui Profit Calculator Panel** is a MQL5 script designed to calculate historical profit over a specified period using a user-friendly graphical interface. The interface is provided by the external library **MtGuiController.dll**.  
   
 ![Profit Calculator Interface](images/ProfitCalculatorPanel.jpg)
 
