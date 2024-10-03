@@ -18,8 +18,7 @@ You can also find the original repository of the library here: [MtGuiController 
 ## Installation
 1. Clone or download this repository.
    ```bash
-   git clone https://github.com/5nail000/MtGui_ProfitCalculator.git
-  bash```
+   git clone https://github.com/5nail000/MtGui_ProfitCalculator.git```
 
 2. Copy the contents of the `MQL5` folder into the corresponding folder in your MetaTrader 5 directory:
    - `MQL5\Scripts`
