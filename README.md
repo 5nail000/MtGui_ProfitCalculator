@@ -5,6 +5,10 @@
   
 ![Profit Calculator Interface](images/ProfitCalculatorPanel.jpg)
 
+For more information about the library, you can check out the article published by Vasiliy Sokolov: [Article on MQL5](https://www.mql5.com/ru/articles/6549).
+
+You can also find the original repository of the library here: [TradePanelForm Repository](https://github.com/PublicMqlProjects/TradePanelForm).
+
 ## Features
 - **Date Selection**: Choose the date range for profit calculation.
 - **Symbol and Magic Filtering**: Filter trades by symbols and magic numbers.
