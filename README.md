@@ -7,7 +7,7 @@
 
 For more information about the library, you can check out the article published by Vasiliy Sokolov: [Article on MQL5](https://www.mql5.com/ru/articles/6549).
 
-You can also find the original repository of the library here: [TradePanelForm Repository](https://github.com/PublicMqlProjects/TradePanelForm).
+You can also find the original repository of the library here: [MtGuiController Repository](https://github.com/PublicMqlProjects/MtGuiController).
 
 ## Features
 - **Date Selection**: Choose the date range for profit calculation.
