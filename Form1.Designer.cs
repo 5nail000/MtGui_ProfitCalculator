@@ -1,4 +1,6 @@
-﻿namespace MtGuiController
+﻿using System;
+
+namespace MtGuiController
 {
     partial class Form1
     {
@@ -50,8 +52,16 @@
             this.label_deals = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.check_unclosed = new System.Windows.Forms.CheckBox();
+            this.btn_actual = new System.Windows.Forms.Button();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
+            this.LocationChanged += new EventHandler(Form1_LocationChanged);
+
+            // 
+            // button_actual
+            // 
+            this.btn_actual.Click += new System.EventHandler(this.btn_actual_Click);
+
             // 
             // button_submit
             // 
@@ -314,11 +324,21 @@
             this.check_unclosed.UseVisualStyleBackColor = true;
             this.check_unclosed.Visible = false;
             // 
+            // btn_actual
+            // 
+            this.btn_actual.Location = new System.Drawing.Point(650, 68);
+            this.btn_actual.Name = "btn_actual";
+            this.btn_actual.Size = new System.Drawing.Size(18, 212);
+            this.btn_actual.TabIndex = 18;
+            this.btn_actual.Text = ">";
+            this.btn_actual.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(665, 376);
+            this.ClientSize = new System.Drawing.Size(678, 376);
+            this.Controls.Add(this.btn_actual);
             this.Controls.Add(this.check_unclosed);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label_deals);
@@ -361,5 +381,8 @@
         private System.Windows.Forms.Button b_today;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.CheckBox check_unclosed;
+        private System.Windows.Forms.Button btn_actual;
     }
+
+
 }
